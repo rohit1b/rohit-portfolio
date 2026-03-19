@@ -71,11 +71,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-white/95 dark:bg-black/95 backdrop-blur-xl border-b border-surface-border dark:border-dark-surface-border"
-          : "bg-white/0 dark:bg-black/0"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
+        ? "bg-white/95 dark:bg-black/95 backdrop-blur-xl border-b border-surface-border dark:border-dark-surface-border"
+        : "bg-white/0 dark:bg-black/0"
+        }`}
     >
       {/* Top border line — appears on scroll */}
       <motion.div
@@ -87,9 +86,8 @@ export default function Navbar() {
 
       <div
         ref={menuRef}
-        className={`max-w-7xl mx-auto px-5 sm:px-8 transition-all duration-500 ${
-          scrolled ? "py-4" : "py-6"
-        }`}
+        className={`max-w-7xl mx-auto px-5 sm:px-8 transition-all duration-500 ${scrolled ? "py-4" : "py-6"
+          }`}
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -97,7 +95,7 @@ export default function Navbar() {
             href="/"
             className="font-display italic font-semibold text-xl text-neutral-900 dark:text-white tracking-tight hover:text-primary transition-colors duration-300"
           >
-            DK
+            RS
           </Link>
 
           {/* Desktop nav */}
