@@ -119,7 +119,7 @@ export default async function ProjectPage({
                     DK
                   </div>
                   <span className="text-slate-700 dark:text-slate-300 font-medium">
-                    Deepak Kumar
+                    Rohit Singh
                   </span>
                 </li>
               </ul>
