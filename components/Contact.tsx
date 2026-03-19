@@ -69,7 +69,7 @@ export default function Contact() {
           <p>© {new Date().getFullYear()} Rohit Singh. All rights reserved.</p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <a
-              href="https://www.linkedin.com/in/deepak2004/"
+              href="https://www.linkedin.com/in/rohit-singh-423050260/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
