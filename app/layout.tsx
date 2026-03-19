@@ -77,6 +77,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700&display=swap"
           rel="stylesheet"
         />
+        <meta name="google-site-verification" content="tjd4nXd8NTC1ZHQPws93MEBuNeLaNix6q-YCzh2NuIs" />
       </head>
       <body
         className={`${newsreader.className} antialiased bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen relative flex flex-col`}
